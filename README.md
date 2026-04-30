@@ -175,28 +175,7 @@ Fashion_Supply_Chain_Delay_Risk_Monitor/
 |   `-- utils.py
 ```
 
-## What To Keep In GitHub
 
-This repository should include:
-
-- Source code in `src/` and `app/`
-- Synthetic CSV sample data in `data/raw/` and `data/processed/`
-- Notebooks in `notebooks/`
-- Static portfolio page in `docs/index.html`
-- Recruiter preview images in `assets/screenshots/`
-- `README.md`, `requirements.txt`, and `.gitignore`
-
-## What Not To Upload
-
-Do not upload:
-
-- `.venv/`, `venv/`, or other local environments
-- `__pycache__/`, `.ipynb_checkpoints/`, and cache folders
-- `.env`, credentials, API keys, tokens, passwords, or secrets
-- Local databases such as `.db`, `.sqlite`, or `.duckdb`
-- Private company exports or confidential raw data
-- Temporary Office files such as `~$*.docx`
-- Large unnecessary files or generated junk
 
 ## Limitations
 
