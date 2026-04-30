@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Credentials and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# R / Quarto
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*_cache/
+*_files/
+.quarto/
+
+# Node / frontend tooling
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS and editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+*.bak
+*.swp
+
+# Local databases and heavy binary data
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.zip
+*.7z
+*.rar
+
+# Private/raw data policy
+data/private/
+data/confidential/
+data/external/
+data/raw_company/
+
+# Keep curated synthetic sample data and portfolio assets
+!data/raw/*.csv
+!data/processed/*.csv
+!assets/screenshots/*.svg
+!docs/index.html
