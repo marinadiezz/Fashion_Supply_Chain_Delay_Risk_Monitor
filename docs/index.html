@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fashion Supply Chain Delay & Risk Monitor</title>
+  <style>
+    :root { --ink:#172033; --muted:#5b6472; --line:#d8dee8; --bg:#f5f7fb; --teal:#2f6f73; --amber:#b56b2a; --red:#b94747; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter, Segoe UI, Arial, sans-serif; color:var(--ink); background:var(--bg); }
+    header { padding:44px 6vw 26px; background:#fff; border-bottom:1px solid var(--line); }
+    main { padding:28px 6vw 52px; }
+    nav { position:sticky; top:0; z-index:10; background:#ffffff; border-bottom:1px solid var(--line); padding:12px 6vw; display:flex; flex-wrap:wrap; gap:16px; }
+    h1 { margin:0 0 10px; font-size:clamp(30px, 5vw, 54px); letter-spacing:0; }
+    h2 { margin:34px 0 14px; font-size:24px; }
+    h3 { margin:18px 0 8px; font-size:17px; }
+    p { max-width:980px; line-height:1.6; color:var(--muted); }
+    .kpis { display:grid; grid-template-columns:repeat(4, minmax(160px, 1fr)); gap:14px; margin-top:24px; }
+    .card { background:#fff; border:1px solid var(--line); border-radius:8px; padding:18px; }
+    .section { scroll-margin-top:72px; }
+    .metric-label { color:var(--muted); font-size:13px; }
+    .metric-value { font-size:32px; font-weight:750; margin-top:8px; }
+    .grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+    .grid-3 { display:grid; grid-template-columns:repeat(3, 1fr); gap:18px; }
+    .bar-row { display:grid; grid-template-columns:150px 1fr 70px; gap:12px; align-items:center; margin:12px 0; font-size:14px; }
+    .bar-track { height:12px; background:#e8edf5; border-radius:99px; overflow:hidden; }
+    .bar-fill { height:100%; background:var(--teal); }
+    table { width:100%; border-collapse:collapse; background:#fff; border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    th, td { padding:12px 14px; border-bottom:1px solid var(--line); text-align:left; font-size:14px; }
+    th { background:#eef1f7; }
+    ul { color:var(--muted); line-height:1.6; padding-left:20px; }
+    code { background:#eef1f7; padding:2px 6px; border-radius:5px; }
+    .toc { margin-top:22px; display:grid; grid-template-columns:repeat(4, minmax(160px, 1fr)); gap:12px; max-width:1120px; }
+    .toc a, nav a { color:var(--teal); font-weight:750; text-decoration:none; }
+    .toc a { display:block; background:#f5f7fb; border:1px solid var(--line); border-radius:8px; padding:12px 14px; }
+    .screenshot { width:100%; border:1px solid var(--line); border-radius:8px; background:#fff; }
+    .note { font-size:14px; color:var(--muted); }
+    .pill { display:inline-block; border:1px solid var(--line); background:#fff; border-radius:999px; padding:7px 11px; margin:4px 6px 4px 0; color:var(--muted); }
+    @media (max-width: 900px) { .kpis, .grid, .grid-3, .toc { grid-template-columns:1fr; } .bar-row { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fashion Supply Chain Delay & Risk Monitor</h1>
+    <p>A portfolio-ready analytics project that models launch readiness, supplier performance, operational blockers, and mitigation ownership for a multi-brand fashion supply chain.</p>
+    <div class="toc" aria-label="Page contents">
+      <a href="#executive-summary">Executive summary</a>
+      <a href="#business-view">Business view</a>
+      <a href="#screenshots">Screenshots</a>
+      <a href="#data-model">Data model</a>
+      <a href="#lowest-readiness">Lowest readiness</a>
+      <a href="#open-the-app">Open the app</a>
+      <a href="#github-pages">GitHub Pages</a>
+      <a href="#portfolio-note">Portfolio note</a>
+    </div>
+  </header>
+  <nav aria-label="Quick navigation">
+    <a href="#executive-summary">Summary</a>
+    <a href="#business-view">KPIs</a>
+    <a href="#screenshots">Screenshots</a>
+    <a href="#data-model">Data</a>
+    <a href="#open-the-app">App access</a>
+  </nav>
+  <main>
+    <section id="executive-summary" class="section">
+      <h2>Executive Summary</h2>
+      <p>This project is a synthetic fashion launch control tower. It connects collections, suppliers, purchase orders, milestones, incidents, risks, and mitigation actions so a PMO or operations team can identify where launch readiness is under pressure.</p>
+      <div>
+        <span class="pill">Python</span>
+        <span class="pill">pandas</span>
+        <span class="pill">Streamlit</span>
+        <span class="pill">Plotly</span>
+        <span class="pill">Synthetic data</span>
+        <span class="pill">GitHub Pages</span>
+      </div>
+    </section>
+
+    <section class="kpis section" aria-label="Key portfolio metrics">
+      <div class="card"><div class="metric-label">Collections</div><div class="metric-value">30</div></div>
+      <div class="card"><div class="metric-label">Average readiness</div><div class="metric-value">70.8</div></div>
+      <div class="card"><div class="metric-label">At-risk launches</div><div class="metric-value">16</div></div>
+      <div class="card"><div class="metric-label">Open critical risks</div><div class="metric-value">23</div></div>
+    </section>
+
+    <section id="business-view" class="section">
+      <h2>Business View</h2>
+      <p>This static page is designed for GitHub Pages and recruiter review. It summarizes the same synthetic scenario dataset used by the Streamlit dashboard, without requiring a local app server or external credentials.</p>
+
+      <section class="grid">
+        <div class="card">
+          <h3>Readiness Bands</h3>
+          
+            <div class="bar-row">
+              <span>Ready</span>
+              <div class="bar-track"><div class="bar-fill" style="width:20.0%"></div></div>
+              <strong>3.0</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>Watch</span>
+              <div class="bar-track"><div class="bar-fill" style="width:73.3%"></div></div>
+              <strong>11.0</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>At Risk</span>
+              <div class="bar-track"><div class="bar-fill" style="width:100.0%"></div></div>
+              <strong>15.0</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>Critical</span>
+              <div class="bar-track"><div class="bar-fill" style="width:6.7%"></div></div>
+              <strong>1.0</strong>
+            </div>
+            
+        </div>
+        <div class="card">
+          <h3>Delay by Workstream</h3>
+          
+            <div class="bar-row">
+              <span>ecommerce</span>
+              <div class="bar-track"><div class="bar-fill" style="width:100.0%"></div></div>
+              <strong>148.0d</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>production</span>
+              <div class="bar-track"><div class="bar-fill" style="width:73.6%"></div></div>
+              <strong>109.0d</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>launch_governance</span>
+              <div class="bar-track"><div class="bar-fill" style="width:61.5%"></div></div>
+              <strong>91.0d</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>design</span>
+              <div class="bar-track"><div class="bar-fill" style="width:60.8%"></div></div>
+              <strong>90.0d</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>sourcing</span>
+              <div class="bar-track"><div class="bar-fill" style="width:56.8%"></div></div>
+              <strong>84.0d</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>inbound_logistics</span>
+              <div class="bar-track"><div class="bar-fill" style="width:50.0%"></div></div>
+              <strong>74.0d</strong>
+            </div>
+            
+        </div>
+        <div class="card">
+          <h3>Supplier Delay Watchlist</h3>
+          
+            <div class="bar-row">
+              <span>Inditex Vietnam Cluster Partner 19</span>
+              <div class="bar-track"><div class="bar-fill" style="width:100.0%"></div></div>
+              <strong>12.2d</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>Inditex Spain Cluster Partner 13</span>
+              <div class="bar-track"><div class="bar-fill" style="width:75.7%"></div></div>
+              <strong>9.2d</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>Inditex Bangladesh Cluster Partner 32</span>
+              <div class="bar-track"><div class="bar-fill" style="width:66.6%"></div></div>
+              <strong>8.1d</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>Inditex China Cluster Partner 10</span>
+              <div class="bar-track"><div class="bar-fill" style="width:63.8%"></div></div>
+              <strong>7.8d</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>Inditex Portugal Cluster Partner 04</span>
+              <div class="bar-track"><div class="bar-fill" style="width:63.4%"></div></div>
+              <strong>7.7d</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>Inditex Bangladesh Cluster Partner 06</span>
+              <div class="bar-track"><div class="bar-fill" style="width:60.4%"></div></div>
+              <strong>7.4d</strong>
+            </div>
+            
+        </div>
+        <div class="card">
+          <h3>Portfolio Scope</h3>
+          <p>390 purchase orders, 540 milestones, 190 risks, 240 mitigation actions, and 34 representative suppliers are connected through collection IDs and supplier IDs.</p>
+        </div>
+      </section>
+    </section>
+
+    <section id="screenshots" class="section">
+      <h2>Dashboard Preview Screenshots</h2>
+      <p>These previews are included for reviewers who do not run the Streamlit app. The complete interactive app includes filters, tabs, maps, scenario analysis, and dynamic Plotly charts.</p>
+      <div class="grid-3">
+        <img class="screenshot" src="../assets/screenshots/executive_overview.svg" alt="Executive overview screenshot">
+        <img class="screenshot" src="../assets/screenshots/supplier_watchlist.svg" alt="Supplier watchlist screenshot">
+        <img class="screenshot" src="../assets/screenshots/risk_monitoring.svg" alt="Risk monitoring screenshot">
+      </div>
+    </section>
+
+    <section id="data-model" class="section">
+      <h2>Data Model</h2>
+      <p>The project uses a small CSV-based model so reviewers can inspect the inputs without a database.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Core Tables</h3>
+          <ul>
+            <li><code>collections</code>: launch portfolio, brands, markets, scope, readiness</li>
+            <li><code>suppliers</code>: representative sourcing partners and risk context</li>
+            <li><code>purchase_orders</code>: planned and actual supply-chain dates</li>
+            <li><code>milestones</code>: launch workstream status and blockers</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Governance Tables</h3>
+          <ul>
+            <li><code>risks</code>: probability, impact, severity, and ownership</li>
+            <li><code>incidents</code>: operational issues linked to suppliers and orders</li>
+            <li><code>actions</code>: mitigation tasks, due dates, and completion status</li>
+            <li><code>brands</code>: public brand context used for scenario realism</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="lowest-readiness" class="section">
+      <h2>Lowest Readiness Collections</h2>
+      <table>
+        <thead><tr><th>Collection</th><th>Brand</th><th>Market</th><th>Readiness</th><th>Band</th></tr></thead>
+        <tbody><tr><td>Zara Home Kids Home SS25</td><td>Zara Home</td><td>Netherlands</td><td>48.4</td><td>Critical</td></tr>
+<tr><td>Massimo Dutti Tailoring Holiday 25</td><td>Massimo Dutti</td><td>Italy</td><td>53.3</td><td>At Risk</td></tr>
+<tr><td>Stradivarius Accessories Summer 25</td><td>Stradivarius</td><td>United Kingdom</td><td>55.4</td><td>At Risk</td></tr>
+<tr><td>Zara Home Tableware SS25</td><td>Zara Home</td><td>Spain</td><td>55.7</td><td>At Risk</td></tr>
+<tr><td>Bershka Denim Core Holiday 25</td><td>Bershka</td><td>Spain</td><td>59.1</td><td>At Risk</td></tr>
+<tr><td>Oysho Ski AW25</td><td>Oysho</td><td>Portugal</td><td>60.6</td><td>At Risk</td></tr></tbody>
+      </table>
+    </section>
+
+    <section id="open-the-app" class="section">
+      <h2>How To Open The Full App</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Static page</h3>
+          <p>This page is the GitHub Pages version. It is intentionally static and works well for a quick portfolio review.</p>
+        </div>
+        <div class="card">
+          <h3>Interactive dashboard</h3>
+          <p>The full app is built with Streamlit. To share it publicly, deploy <code>app/streamlit_app.py</code> with Streamlit Community Cloud and add the app URL to the README.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="github-pages" class="section">
+      <h2>GitHub Pages Setup</h2>
+      <p>Use the repository settings to publish the <code>/docs</code> folder. GitHub will serve this <code>index.html</code> file as the public static portfolio page.</p>
+      <ul>
+        <li>Source: deploy from a branch</li>
+        <li>Branch: main</li>
+        <li>Folder: <code>/docs</code></li>
+      </ul>
+    </section>
+
+    <section id="portfolio-note" class="section">
+      <h2>Portfolio Note</h2>
+      <p class="note">The data is synthetic scenario data generated from public fashion portfolio context. It is not confidential company data and does not represent official operational records from any retailer.</p>
+    </section>
+  </main>
+</body>
+</html>
