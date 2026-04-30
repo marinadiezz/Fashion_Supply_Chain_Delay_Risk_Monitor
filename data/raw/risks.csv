@@ -1,0 +1,191 @@
+risk_id,collection_id,workstream,risk_type,risk_description,probability,impact,severity,risk_score,owner,status,mitigation_status,date_identified,target_resolution_date
+RSK0001,COL029,design,ecommerce readiness,Missing product content may block digital go-live,3,3,Medium,9.0,Merchandising,Monitoring,Completed,2026-08-02,2026-09-13
+RSK0002,COL026,production,data/content issue,Product data may need manual cleanup before publishing,2,5,High,10.0,Merchandising,Mitigating,In Progress,2026-04-30,2026-05-24
+RSK0003,COL016,warehouse_allocation,ecommerce readiness,Missing product content may block digital go-live,2,5,High,10.0,PMO,Mitigating,Completed,2026-08-11,2026-09-14
+RSK0004,COL012,production,data/content issue,Product data may need manual cleanup before publishing,4,4,Critical,16.0,Marketing Manager,Escalated,Completed,2026-08-27,2026-09-06
+RSK0005,COL012,production,logistics delay,Transport disruption may delay inbound arrival,2,2,Low,4.0,E-commerce Producer,Mitigating,Not Started,2026-08-27,2026-09-23
+RSK0006,COL027,launch_governance,ecommerce readiness,Missing product content may block digital go-live,3,4,High,12.0,PMO,Closed,In Progress,2027-02-02,2027-02-16
+RSK0007,COL006,warehouse_allocation,packaging delay,Packaging approval may miss production handoff,4,2,Medium,8.0,Marketing Manager,Monitoring,In Progress,2026-11-10,2026-12-11
+RSK0008,COL004,design,logistics delay,Transport disruption may delay inbound arrival,3,4,High,12.0,Marketing Manager,Open,Overdue,2026-07-11,2026-08-05
+RSK0009,COL011,sourcing,marketing delay,Campaign assets may miss launch handover,4,3,High,12.0,Marketing Manager,Escalated,Overdue,2026-07-09,2026-07-26
+RSK0010,COL009,design,data/content issue,Product data may need manual cleanup before publishing,3,2,Medium,6.0,Merchandising,Mitigating,Completed,2026-12-17,2027-01-03
+RSK0011,COL021,launch_governance,supplier capacity,Supplier capacity issue may compress production window,3,3,Medium,9.0,Production Planner,Mitigating,Overdue,2026-07-25,2026-08-15
+RSK0012,COL003,production,packaging delay,Packaging approval may miss production handoff,2,5,High,10.0,PMO,Open,In Progress,2026-10-03,2026-11-05
+RSK0013,COL024,design,compliance issue,Labeling or sustainability document may need review,1,2,Low,2.0,Logistics Lead,Escalated,In Progress,2026-08-27,2026-09-17
+RSK0014,COL028,launch_governance,supplier capacity,Supplier capacity issue may compress production window,2,5,High,10.0,E-commerce Producer,Monitoring,Completed,2026-08-03,2026-08-17
+RSK0015,COL027,marketing,customs issue,Customs hold risk linked to incomplete documents,3,3,Medium,9.0,Production Planner,Monitoring,Completed,2027-02-06,2027-02-20
+RSK0016,COL030,design,production backlog,Factory backlog may push final inspection,3,5,High,15.0,Retail Operations,Open,In Progress,2026-08-29,2026-09-14
+RSK0017,COL010,warehouse_allocation,stock allocation,Allocation dispute may reduce launch coverage,1,4,Low,4.0,Logistics Lead,Monitoring,Not Started,2026-03-28,2026-04-30
+RSK0018,COL002,retail_readiness,logistics delay,Transport disruption may delay inbound arrival,3,2,Medium,6.0,Quality Manager,Escalated,Overdue,2026-09-30,2026-10-10
+RSK0019,COL027,ecommerce,customs issue,Customs hold risk linked to incomplete documents,3,4,High,12.0,Retail Operations,Mitigating,Overdue,2027-02-15,2027-03-01
+RSK0020,COL006,quality_control,quality failure,Inspection failure could require rework before shipment,4,3,High,12.0,Retail Operations,Escalated,In Progress,2026-11-24,2026-12-30
+RSK0021,COL014,inbound_logistics,compliance issue,Labeling or sustainability document may need review,1,2,Low,2.0,Quality Manager,Open,Not Started,2026-09-22,2026-10-07
+RSK0022,COL002,design,customs issue,Customs hold risk linked to incomplete documents,4,2,Medium,8.0,Merchandising,Open,Overdue,2026-07-29,2026-08-23
+RSK0023,COL002,inbound_logistics,packaging delay,Packaging approval may miss production handoff,4,3,High,12.0,Production Planner,Open,In Progress,2026-08-15,2026-09-07
+RSK0024,COL005,warehouse_allocation,supplier capacity,Supplier capacity issue may compress production window,1,2,Low,2.0,Merchandising,Open,In Progress,2026-06-02,2026-06-15
+RSK0025,COL025,design,packaging delay,Packaging approval may miss production handoff,2,2,Low,4.0,Quality Manager,Open,Completed,2027-02-03,2027-02-19
+RSK0026,COL001,inbound_logistics,supplier capacity,Supplier capacity issue may compress production window,4,3,High,12.0,Retail Operations,Mitigating,In Progress,2026-06-02,2026-07-06
+RSK0027,COL004,warehouse_allocation,ecommerce readiness,Missing product content may block digital go-live,1,3,Low,3.0,Production Planner,Monitoring,In Progress,2026-07-05,2026-07-19
+RSK0028,COL029,ecommerce,production backlog,Factory backlog may push final inspection,2,3,Medium,6.0,PMO,Open,Not Started,2026-06-12,2026-07-09
+RSK0029,COL002,design,compliance issue,Labeling or sustainability document may need review,4,3,High,12.0,Quality Manager,Mitigating,Completed,2026-08-07,2026-08-26
+RSK0030,COL004,inbound_logistics,stock allocation,Allocation dispute may reduce launch coverage,4,4,Critical,16.0,Merchandising,Open,Completed,2026-08-04,2026-08-28
+RSK0031,COL017,retail_readiness,customs issue,Customs hold risk linked to incomplete documents,3,2,Medium,6.0,Merchandising,Open,In Progress,2026-12-11,2027-01-02
+RSK0032,COL021,inbound_logistics,production backlog,Factory backlog may push final inspection,4,5,Critical,20.0,Logistics Lead,Closed,Completed,2026-09-24,2026-11-06
+RSK0033,COL011,marketing,production backlog,Factory backlog may push final inspection,4,3,High,12.0,Compliance Lead,Mitigating,Not Started,2026-07-03,2026-08-02
+RSK0034,COL014,quality_control,stock allocation,Allocation dispute may reduce launch coverage,3,5,High,15.0,Compliance Lead,Monitoring,In Progress,2026-09-19,2026-11-02
+RSK0035,COL026,warehouse_allocation,packaging delay,Packaging approval may miss production handoff,1,4,Low,4.0,Merchandising,Escalated,In Progress,2026-05-23,2026-06-12
+RSK0036,COL013,ecommerce,stock allocation,Allocation dispute may reduce launch coverage,2,5,High,10.0,Compliance Lead,Escalated,Overdue,2026-12-06,2027-01-11
+RSK0037,COL027,design,compliance issue,Labeling or sustainability document may need review,1,3,Low,3.0,Retail Operations,Escalated,Completed,2026-12-13,2027-01-11
+RSK0038,COL016,ecommerce,marketing delay,Campaign assets may miss launch handover,2,2,Low,4.0,PMO,Monitoring,In Progress,2026-07-08,2026-08-21
+RSK0039,COL010,production,data/content issue,Product data may need manual cleanup before publishing,2,3,Medium,6.0,Compliance Lead,Mitigating,In Progress,2026-03-26,2026-04-17
+RSK0040,COL016,launch_governance,quality failure,Inspection failure could require rework before shipment,2,2,Low,4.0,PMO,Monitoring,Not Started,2026-08-05,2026-08-29
+RSK0041,COL020,design,packaging delay,Packaging approval may miss production handoff,3,5,High,15.0,Quality Manager,Open,In Progress,2026-07-09,2026-07-24
+RSK0042,COL018,quality_control,logistics delay,Transport disruption may delay inbound arrival,4,3,High,12.0,E-commerce Producer,Mitigating,In Progress,2026-10-17,2026-11-22
+RSK0043,COL019,marketing,ecommerce readiness,Missing product content may block digital go-live,1,3,Low,3.0,Quality Manager,Mitigating,Completed,2027-01-14,2027-02-17
+RSK0044,COL027,design,logistics delay,Transport disruption may delay inbound arrival,2,3,Medium,6.0,Marketing Manager,Escalated,In Progress,2026-12-27,2027-02-05
+RSK0045,COL025,marketing,ecommerce readiness,Missing product content may block digital go-live,1,4,Low,4.0,Sourcing Lead,Open,Overdue,2026-11-24,2026-12-27
+RSK0046,COL016,ecommerce,ecommerce readiness,Missing product content may block digital go-live,4,4,Critical,16.0,Retail Operations,Closed,In Progress,2026-06-11,2026-07-22
+RSK0047,COL020,retail_readiness,customs issue,Customs hold risk linked to incomplete documents,2,3,Medium,6.0,Logistics Lead,Open,Not Started,2026-07-15,2026-08-16
+RSK0048,COL026,launch_governance,packaging delay,Packaging approval may miss production handoff,4,5,Critical,20.0,Production Planner,Mitigating,Completed,2026-06-10,2026-07-04
+RSK0049,COL029,launch_governance,supplier capacity,Supplier capacity issue may compress production window,2,2,Low,4.0,Merchandising,Escalated,Completed,2026-07-20,2026-07-31
+RSK0050,COL014,marketing,marketing delay,Campaign assets may miss launch handover,3,3,Medium,9.0,Sourcing Lead,Mitigating,In Progress,2026-08-08,2026-08-25
+RSK0051,COL020,sourcing,packaging delay,Packaging approval may miss production handoff,3,4,High,12.0,Production Planner,Mitigating,Not Started,2026-05-08,2026-05-26
+RSK0052,COL019,launch_governance,logistics delay,Transport disruption may delay inbound arrival,1,3,Low,3.0,Production Planner,Monitoring,Overdue,2027-01-13,2027-02-11
+RSK0053,COL026,inbound_logistics,supplier capacity,Supplier capacity issue may compress production window,2,3,Medium,6.0,Quality Manager,Monitoring,Completed,2026-05-22,2026-06-11
+RSK0054,COL004,production,quality failure,Inspection failure could require rework before shipment,1,4,Low,4.0,Marketing Manager,Open,In Progress,2026-08-13,2026-09-05
+RSK0055,COL013,sourcing,ecommerce readiness,Missing product content may block digital go-live,3,3,Medium,9.0,Retail Operations,Mitigating,In Progress,2026-12-30,2027-01-16
+RSK0056,COL029,sourcing,quality failure,Inspection failure could require rework before shipment,4,3,High,12.0,Retail Operations,Monitoring,Not Started,2026-07-09,2026-08-13
+RSK0057,COL002,quality_control,quality failure,Inspection failure could require rework before shipment,4,2,Medium,8.0,Compliance Lead,Escalated,Completed,2026-10-08,2026-10-31
+RSK0058,COL021,ecommerce,supplier capacity,Supplier capacity issue may compress production window,1,5,Medium,5.0,Compliance Lead,Mitigating,Overdue,2026-09-25,2026-11-07
+RSK0059,COL008,inbound_logistics,quality failure,Inspection failure could require rework before shipment,3,3,Medium,9.0,Merchandising,Monitoring,Completed,2026-08-26,2026-09-28
+RSK0060,COL006,production,logistics delay,Transport disruption may delay inbound arrival,1,5,Medium,5.0,PMO,Open,Not Started,2026-11-03,2026-12-16
+RSK0061,COL018,marketing,ecommerce readiness,Missing product content may block digital go-live,4,5,Critical,20.0,Production Planner,Monitoring,Completed,2026-10-31,2026-12-13
+RSK0062,COL011,inbound_logistics,ecommerce readiness,Missing product content may block digital go-live,2,4,Medium,8.0,PMO,Escalated,Completed,2026-08-05,2026-08-15
+RSK0063,COL029,warehouse_allocation,production backlog,Factory backlog may push final inspection,1,5,Medium,5.0,Sourcing Lead,Mitigating,In Progress,2026-07-07,2026-07-23
+RSK0064,COL010,sourcing,quality failure,Inspection failure could require rework before shipment,1,4,Low,4.0,PMO,Mitigating,Not Started,2026-05-02,2026-05-15
+RSK0065,COL019,sourcing,customs issue,Customs hold risk linked to incomplete documents,4,4,Critical,16.0,Compliance Lead,Open,Completed,2026-12-26,2027-01-23
+RSK0066,COL004,production,compliance issue,Labeling or sustainability document may need review,1,5,Medium,5.0,Compliance Lead,Open,In Progress,2026-06-20,2026-07-23
+RSK0067,COL030,launch_governance,quality failure,Inspection failure could require rework before shipment,2,4,Medium,8.0,Retail Operations,Open,In Progress,2026-09-27,2026-10-07
+RSK0068,COL015,launch_governance,data/content issue,Product data may need manual cleanup before publishing,2,5,High,10.0,Retail Operations,Open,In Progress,2026-10-12,2026-11-21
+RSK0069,COL020,ecommerce,stock allocation,Allocation dispute may reduce launch coverage,3,3,Medium,9.0,Merchandising,Monitoring,Overdue,2026-05-12,2026-05-30
+RSK0070,COL021,quality_control,customs issue,Customs hold risk linked to incomplete documents,2,5,High,10.0,Production Planner,Monitoring,Not Started,2026-09-07,2026-09-17
+RSK0071,COL028,ecommerce,stock allocation,Allocation dispute may reduce launch coverage,3,2,Medium,6.0,Quality Manager,Monitoring,Not Started,2026-08-05,2026-09-14
+RSK0072,COL013,warehouse_allocation,marketing delay,Campaign assets may miss launch handover,2,4,Medium,8.0,Logistics Lead,Escalated,In Progress,2026-12-30,2027-01-12
+RSK0073,COL029,launch_governance,packaging delay,Packaging approval may miss production handoff,2,2,Low,4.0,Marketing Manager,Open,Not Started,2026-08-18,2026-09-03
+RSK0074,COL001,production,stock allocation,Allocation dispute may reduce launch coverage,3,3,Medium,9.0,Production Planner,Mitigating,In Progress,2026-06-06,2026-07-01
+RSK0075,COL016,sourcing,production backlog,Factory backlog may push final inspection,4,3,High,12.0,Sourcing Lead,Mitigating,In Progress,2026-07-31,2026-09-12
+RSK0076,COL008,quality_control,marketing delay,Campaign assets may miss launch handover,4,4,Critical,16.0,Logistics Lead,Mitigating,In Progress,2026-06-03,2026-07-12
+RSK0077,COL019,design,logistics delay,Transport disruption may delay inbound arrival,3,3,Medium,9.0,PMO,Escalated,In Progress,2026-11-28,2027-01-10
+RSK0078,COL015,production,ecommerce readiness,Missing product content may block digital go-live,3,4,High,12.0,PMO,Mitigating,Completed,2026-09-10,2026-10-24
+RSK0079,COL023,design,quality failure,Inspection failure could require rework before shipment,2,3,Medium,6.0,Quality Manager,Open,Completed,2026-10-22,2026-11-13
+RSK0080,COL007,quality_control,customs issue,Customs hold risk linked to incomplete documents,4,3,High,12.0,Quality Manager,Open,Overdue,2026-09-17,2026-10-20
+RSK0081,COL017,sourcing,logistics delay,Transport disruption may delay inbound arrival,2,2,Low,4.0,Compliance Lead,Open,Completed,2027-02-11,2027-03-25
+RSK0082,COL011,retail_readiness,production backlog,Factory backlog may push final inspection,1,3,Low,3.0,PMO,Open,In Progress,2026-08-14,2026-08-29
+RSK0083,COL019,sourcing,customs issue,Customs hold risk linked to incomplete documents,4,3,High,12.0,Sourcing Lead,Mitigating,Completed,2027-02-11,2027-03-27
+RSK0084,COL020,quality_control,compliance issue,Labeling or sustainability document may need review,4,4,Critical,16.0,E-commerce Producer,Mitigating,Completed,2026-06-19,2026-07-10
+RSK0085,COL027,production,ecommerce readiness,Missing product content may block digital go-live,4,4,Critical,16.0,E-commerce Producer,Escalated,In Progress,2027-03-01,2027-03-28
+RSK0086,COL030,design,stock allocation,Allocation dispute may reduce launch coverage,4,4,Critical,16.0,Compliance Lead,Mitigating,Overdue,2026-10-06,2026-11-04
+RSK0087,COL015,inbound_logistics,supplier capacity,Supplier capacity issue may compress production window,2,4,Medium,8.0,Compliance Lead,Open,Overdue,2026-09-17,2026-10-15
+RSK0088,COL012,warehouse_allocation,ecommerce readiness,Missing product content may block digital go-live,4,4,Critical,16.0,PMO,Escalated,In Progress,2026-10-06,2026-10-18
+RSK0089,COL016,marketing,customs issue,Customs hold risk linked to incomplete documents,3,2,Medium,6.0,Retail Operations,Mitigating,Completed,2026-06-28,2026-07-18
+RSK0090,COL001,retail_readiness,production backlog,Factory backlog may push final inspection,1,3,Low,3.0,Compliance Lead,Open,In Progress,2026-06-27,2026-07-28
+RSK0091,COL024,ecommerce,customs issue,Customs hold risk linked to incomplete documents,2,4,Medium,8.0,Compliance Lead,Escalated,Completed,2026-09-16,2026-09-26
+RSK0092,COL009,quality_control,stock allocation,Allocation dispute may reduce launch coverage,4,2,Medium,8.0,Production Planner,Open,In Progress,2026-11-05,2026-11-29
+RSK0093,COL005,ecommerce,quality failure,Inspection failure could require rework before shipment,1,2,Low,2.0,E-commerce Producer,Mitigating,Not Started,2026-05-26,2026-06-14
+RSK0094,COL010,marketing,quality failure,Inspection failure could require rework before shipment,3,3,Medium,9.0,Marketing Manager,Monitoring,Completed,2026-06-23,2026-07-30
+RSK0095,COL026,design,production backlog,Factory backlog may push final inspection,1,4,Low,4.0,Compliance Lead,Open,Overdue,2026-04-30,2026-05-25
+RSK0096,COL020,quality_control,quality failure,Inspection failure could require rework before shipment,2,4,Medium,8.0,Quality Manager,Open,Overdue,2026-07-25,2026-08-14
+RSK0097,COL005,marketing,packaging delay,Packaging approval may miss production handoff,4,2,Medium,8.0,Retail Operations,Open,In Progress,2026-04-19,2026-05-13
+RSK0098,COL001,ecommerce,quality failure,Inspection failure could require rework before shipment,1,3,Low,3.0,Compliance Lead,Closed,Completed,2026-03-26,2026-04-13
+RSK0099,COL022,retail_readiness,compliance issue,Labeling or sustainability document may need review,4,4,Critical,16.0,Marketing Manager,Escalated,In Progress,2026-10-04,2026-10-26
+RSK0100,COL005,warehouse_allocation,stock allocation,Allocation dispute may reduce launch coverage,4,2,Medium,8.0,Production Planner,Monitoring,Overdue,2026-03-29,2026-05-04
+RSK0101,COL008,warehouse_allocation,marketing delay,Campaign assets may miss launch handover,2,2,Low,4.0,Merchandising,Open,Not Started,2026-06-12,2026-07-06
+RSK0102,COL004,retail_readiness,compliance issue,Labeling or sustainability document may need review,1,4,Low,4.0,Production Planner,Open,In Progress,2026-08-29,2026-09-27
+RSK0103,COL017,production,marketing delay,Campaign assets may miss launch handover,4,4,Critical,16.0,Sourcing Lead,Closed,Completed,2027-03-10,2027-03-24
+RSK0104,COL030,design,stock allocation,Allocation dispute may reduce launch coverage,1,5,Medium,5.0,Merchandising,Mitigating,In Progress,2026-11-29,2026-12-11
+RSK0105,COL029,retail_readiness,supplier capacity,Supplier capacity issue may compress production window,2,5,High,10.0,Retail Operations,Escalated,Completed,2026-07-24,2026-08-05
+RSK0106,COL005,ecommerce,production backlog,Factory backlog may push final inspection,3,5,High,15.0,Marketing Manager,Open,Completed,2026-03-31,2026-04-13
+RSK0107,COL029,sourcing,logistics delay,Transport disruption may delay inbound arrival,4,2,Medium,8.0,Retail Operations,Open,Not Started,2026-05-31,2026-07-06
+RSK0108,COL017,retail_readiness,compliance issue,Labeling or sustainability document may need review,4,4,Critical,16.0,Retail Operations,Monitoring,Overdue,2026-12-21,2027-01-22
+RSK0109,COL018,retail_readiness,customs issue,Customs hold risk linked to incomplete documents,2,3,Medium,6.0,Sourcing Lead,Closed,Not Started,2026-09-01,2026-10-04
+RSK0110,COL002,ecommerce,marketing delay,Campaign assets may miss launch handover,4,4,Critical,16.0,PMO,Monitoring,Completed,2026-07-06,2026-08-16
+RSK0111,COL018,retail_readiness,supplier capacity,Supplier capacity issue may compress production window,3,4,High,12.0,Quality Manager,Open,In Progress,2026-09-30,2026-11-02
+RSK0112,COL006,launch_governance,data/content issue,Product data may need manual cleanup before publishing,4,5,Critical,20.0,Production Planner,Monitoring,Completed,2026-12-16,2026-12-27
+RSK0113,COL011,ecommerce,customs issue,Customs hold risk linked to incomplete documents,4,2,Medium,8.0,Production Planner,Escalated,In Progress,2026-09-08,2026-09-23
+RSK0114,COL016,launch_governance,supplier capacity,Supplier capacity issue may compress production window,1,2,Low,2.0,Quality Manager,Closed,In Progress,2026-07-19,2026-08-24
+RSK0115,COL025,ecommerce,compliance issue,Labeling or sustainability document may need review,2,3,Medium,6.0,Marketing Manager,Mitigating,Completed,2026-11-15,2026-12-07
+RSK0116,COL030,warehouse_allocation,quality failure,Inspection failure could require rework before shipment,4,3,High,12.0,Quality Manager,Open,Completed,2026-08-25,2026-09-11
+RSK0117,COL003,design,compliance issue,Labeling or sustainability document may need review,3,4,High,12.0,Quality Manager,Closed,In Progress,2026-09-23,2026-11-06
+RSK0118,COL007,marketing,quality failure,Inspection failure could require rework before shipment,4,3,High,12.0,Merchandising,Mitigating,Completed,2026-11-04,2026-12-14
+RSK0119,COL026,ecommerce,data/content issue,Product data may need manual cleanup before publishing,2,5,High,10.0,Quality Manager,Open,Completed,2026-07-12,2026-07-26
+RSK0120,COL015,launch_governance,quality failure,Inspection failure could require rework before shipment,3,4,High,12.0,E-commerce Producer,Monitoring,In Progress,2026-09-07,2026-10-10
+RSK0121,COL030,warehouse_allocation,packaging delay,Packaging approval may miss production handoff,3,4,High,12.0,Marketing Manager,Mitigating,Completed,2026-09-19,2026-10-16
+RSK0122,COL025,marketing,packaging delay,Packaging approval may miss production handoff,4,2,Medium,8.0,Merchandising,Open,Completed,2027-01-05,2027-02-01
+RSK0123,COL030,marketing,marketing delay,Campaign assets may miss launch handover,3,4,High,12.0,Production Planner,Open,In Progress,2026-10-03,2026-10-23
+RSK0124,COL025,retail_readiness,customs issue,Customs hold risk linked to incomplete documents,2,4,Medium,8.0,Logistics Lead,Open,In Progress,2027-01-09,2027-02-13
+RSK0125,COL013,production,marketing delay,Campaign assets may miss launch handover,1,4,Low,4.0,Quality Manager,Mitigating,Completed,2026-11-02,2026-11-30
+RSK0126,COL008,ecommerce,production backlog,Factory backlog may push final inspection,2,3,Medium,6.0,Marketing Manager,Open,Overdue,2026-07-24,2026-08-22
+RSK0127,COL007,sourcing,production backlog,Factory backlog may push final inspection,3,3,Medium,9.0,Production Planner,Monitoring,In Progress,2026-11-06,2026-11-29
+RSK0128,COL027,retail_readiness,compliance issue,Labeling or sustainability document may need review,3,3,Medium,9.0,Retail Operations,Open,Not Started,2027-02-26,2027-04-09
+RSK0129,COL019,retail_readiness,data/content issue,Product data may need manual cleanup before publishing,4,5,Critical,20.0,Sourcing Lead,Monitoring,Not Started,2026-11-17,2026-11-27
+RSK0130,COL005,warehouse_allocation,stock allocation,Allocation dispute may reduce launch coverage,4,4,Critical,16.0,Logistics Lead,Monitoring,In Progress,2026-05-01,2026-05-30
+RSK0131,COL012,marketing,stock allocation,Allocation dispute may reduce launch coverage,1,4,Low,4.0,Compliance Lead,Monitoring,Completed,2026-09-09,2026-10-12
+RSK0132,COL001,sourcing,marketing delay,Campaign assets may miss launch handover,3,2,Medium,6.0,Marketing Manager,Monitoring,Not Started,2026-06-14,2026-07-16
+RSK0133,COL004,inbound_logistics,marketing delay,Campaign assets may miss launch handover,1,2,Low,2.0,E-commerce Producer,Open,Completed,2026-08-28,2026-09-28
+RSK0134,COL023,production,data/content issue,Product data may need manual cleanup before publishing,2,3,Medium,6.0,Logistics Lead,Closed,In Progress,2027-01-08,2027-02-14
+RSK0135,COL019,sourcing,ecommerce readiness,Missing product content may block digital go-live,1,3,Low,3.0,Retail Operations,Open,Overdue,2026-12-25,2027-02-02
+RSK0136,COL009,retail_readiness,production backlog,Factory backlog may push final inspection,3,4,High,12.0,E-commerce Producer,Mitigating,Not Started,2026-11-16,2026-11-26
+RSK0137,COL016,design,quality failure,Inspection failure could require rework before shipment,4,4,Critical,16.0,Production Planner,Open,Not Started,2026-05-08,2026-06-16
+RSK0138,COL016,retail_readiness,packaging delay,Packaging approval may miss production handoff,4,3,High,12.0,E-commerce Producer,Mitigating,In Progress,2026-07-17,2026-08-18
+RSK0139,COL029,sourcing,packaging delay,Packaging approval may miss production handoff,1,5,Medium,5.0,E-commerce Producer,Monitoring,In Progress,2026-07-12,2026-08-09
+RSK0140,COL027,marketing,stock allocation,Allocation dispute may reduce launch coverage,3,4,High,12.0,Retail Operations,Monitoring,In Progress,2026-12-08,2027-01-17
+RSK0141,COL012,quality_control,compliance issue,Labeling or sustainability document may need review,1,4,Low,4.0,Quality Manager,Open,Completed,2026-08-27,2026-09-25
+RSK0142,COL025,design,packaging delay,Packaging approval may miss production handoff,4,5,Critical,20.0,Sourcing Lead,Open,In Progress,2027-01-14,2027-02-27
+RSK0143,COL009,warehouse_allocation,stock allocation,Allocation dispute may reduce launch coverage,1,3,Low,3.0,PMO,Monitoring,Completed,2026-12-17,2027-01-04
+RSK0144,COL026,warehouse_allocation,data/content issue,Product data may need manual cleanup before publishing,4,4,Critical,16.0,Retail Operations,Mitigating,Not Started,2026-05-21,2026-06-05
+RSK0145,COL023,ecommerce,marketing delay,Campaign assets may miss launch handover,2,2,Low,4.0,E-commerce Producer,Mitigating,In Progress,2026-12-06,2026-12-28
+RSK0146,COL004,design,logistics delay,Transport disruption may delay inbound arrival,2,3,Medium,6.0,E-commerce Producer,Mitigating,In Progress,2026-06-16,2026-07-11
+RSK0147,COL030,quality_control,supplier capacity,Supplier capacity issue may compress production window,1,4,Low,4.0,Merchandising,Open,In Progress,2026-11-02,2026-11-12
+RSK0148,COL015,production,quality failure,Inspection failure could require rework before shipment,2,4,Medium,8.0,PMO,Monitoring,Completed,2026-10-16,2026-11-22
+RSK0149,COL008,design,stock allocation,Allocation dispute may reduce launch coverage,4,3,High,12.0,Retail Operations,Closed,Overdue,2026-07-19,2026-08-16
+RSK0150,COL019,quality_control,compliance issue,Labeling or sustainability document may need review,1,4,Low,4.0,Merchandising,Mitigating,In Progress,2027-01-06,2027-01-21
+RSK0151,COL007,quality_control,quality failure,Inspection failure could require rework before shipment,3,5,High,15.0,Marketing Manager,Monitoring,Not Started,2026-09-12,2026-10-15
+RSK0152,COL029,inbound_logistics,ecommerce readiness,Missing product content may block digital go-live,2,5,High,10.0,Marketing Manager,Mitigating,Overdue,2026-06-02,2026-06-15
+RSK0153,COL005,quality_control,marketing delay,Campaign assets may miss launch handover,4,4,Critical,16.0,Retail Operations,Mitigating,Overdue,2026-06-28,2026-07-28
+RSK0154,COL022,sourcing,customs issue,Customs hold risk linked to incomplete documents,4,3,High,12.0,E-commerce Producer,Open,Not Started,2026-11-25,2026-12-24
+RSK0155,COL011,retail_readiness,quality failure,Inspection failure could require rework before shipment,2,4,Medium,8.0,Quality Manager,Mitigating,Completed,2026-07-03,2026-08-09
+RSK0156,COL010,ecommerce,data/content issue,Product data may need manual cleanup before publishing,3,2,Medium,6.0,E-commerce Producer,Open,Not Started,2026-06-18,2026-07-02
+RSK0157,COL019,launch_governance,ecommerce readiness,Missing product content may block digital go-live,4,4,Critical,16.0,Logistics Lead,Closed,Not Started,2026-12-02,2027-01-15
+RSK0158,COL006,retail_readiness,compliance issue,Labeling or sustainability document may need review,4,5,Critical,20.0,Retail Operations,Open,Overdue,2026-12-11,2026-12-26
+RSK0159,COL015,inbound_logistics,logistics delay,Transport disruption may delay inbound arrival,1,3,Low,3.0,Production Planner,Open,Overdue,2026-11-03,2026-11-17
+RSK0160,COL002,production,ecommerce readiness,Missing product content may block digital go-live,4,5,Critical,20.0,Retail Operations,Monitoring,In Progress,2026-09-25,2026-10-12
+RSK0161,COL010,launch_governance,packaging delay,Packaging approval may miss production handoff,1,4,Low,4.0,Retail Operations,Monitoring,In Progress,2026-04-13,2026-05-11
+RSK0162,COL006,warehouse_allocation,stock allocation,Allocation dispute may reduce launch coverage,1,3,Low,3.0,Retail Operations,Escalated,Completed,2026-11-07,2026-12-02
+RSK0163,COL007,design,packaging delay,Packaging approval may miss production handoff,1,2,Low,2.0,Compliance Lead,Escalated,Completed,2026-10-07,2026-10-21
+RSK0164,COL006,inbound_logistics,quality failure,Inspection failure could require rework before shipment,4,4,Critical,16.0,Production Planner,Monitoring,In Progress,2026-09-23,2026-10-08
+RSK0165,COL012,production,data/content issue,Product data may need manual cleanup before publishing,4,3,High,12.0,PMO,Open,Overdue,2026-08-30,2026-09-19
+RSK0166,COL016,sourcing,supplier capacity,Supplier capacity issue may compress production window,1,2,Low,2.0,Sourcing Lead,Escalated,Completed,2026-08-11,2026-09-18
+RSK0167,COL019,retail_readiness,compliance issue,Labeling or sustainability document may need review,2,2,Low,4.0,PMO,Open,In Progress,2027-02-01,2027-02-17
+RSK0168,COL027,retail_readiness,compliance issue,Labeling or sustainability document may need review,1,2,Low,2.0,E-commerce Producer,Open,In Progress,2026-12-28,2027-01-24
+RSK0169,COL004,sourcing,supplier capacity,Supplier capacity issue may compress production window,3,2,Medium,6.0,PMO,Escalated,Overdue,2026-09-03,2026-10-04
+RSK0170,COL024,warehouse_allocation,compliance issue,Labeling or sustainability document may need review,2,2,Low,4.0,PMO,Open,In Progress,2026-09-27,2026-10-29
+RSK0171,COL024,retail_readiness,packaging delay,Packaging approval may miss production handoff,1,5,Medium,5.0,Retail Operations,Closed,Overdue,2026-09-05,2026-09-30
+RSK0172,COL006,ecommerce,supplier capacity,Supplier capacity issue may compress production window,1,3,Low,3.0,Marketing Manager,Monitoring,In Progress,2026-09-17,2026-09-29
+RSK0173,COL013,marketing,logistics delay,Transport disruption may delay inbound arrival,4,3,High,12.0,Logistics Lead,Open,Overdue,2027-01-08,2027-01-31
+RSK0174,COL017,quality_control,marketing delay,Campaign assets may miss launch handover,1,2,Low,2.0,Sourcing Lead,Monitoring,Not Started,2027-01-18,2027-02-21
+RSK0175,COL002,design,logistics delay,Transport disruption may delay inbound arrival,2,3,Medium,6.0,Compliance Lead,Open,In Progress,2026-07-06,2026-08-03
+RSK0176,COL008,production,customs issue,Customs hold risk linked to incomplete documents,3,4,High,12.0,Production Planner,Open,Overdue,2026-07-29,2026-08-19
+RSK0177,COL018,inbound_logistics,compliance issue,Labeling or sustainability document may need review,1,3,Low,3.0,Marketing Manager,Open,Not Started,2026-10-15,2026-10-31
+RSK0178,COL004,ecommerce,marketing delay,Campaign assets may miss launch handover,3,4,High,12.0,Quality Manager,Monitoring,Overdue,2026-06-30,2026-08-06
+RSK0179,COL003,marketing,packaging delay,Packaging approval may miss production handoff,3,4,High,12.0,Sourcing Lead,Monitoring,In Progress,2026-11-21,2026-12-13
+RSK0180,COL008,design,logistics delay,Transport disruption may delay inbound arrival,1,3,Low,3.0,Production Planner,Closed,Completed,2026-07-06,2026-07-16
+RSK0181,COL012,warehouse_allocation,supplier capacity,Supplier capacity issue may compress production window,3,3,Medium,9.0,Production Planner,Mitigating,In Progress,2026-10-29,2026-12-09
+RSK0182,COL017,ecommerce,packaging delay,Packaging approval may miss production handoff,2,3,Medium,6.0,Marketing Manager,Monitoring,In Progress,2027-03-10,2027-04-23
+RSK0183,COL016,launch_governance,packaging delay,Packaging approval may miss production handoff,2,3,Medium,6.0,E-commerce Producer,Monitoring,In Progress,2026-07-22,2026-08-25
+RSK0184,COL001,warehouse_allocation,data/content issue,Product data may need manual cleanup before publishing,2,2,Low,4.0,Quality Manager,Mitigating,In Progress,2026-03-28,2026-05-05
+RSK0185,COL007,production,supplier capacity,Supplier capacity issue may compress production window,3,4,High,12.0,Retail Operations,Escalated,Completed,2026-10-31,2026-12-01
+RSK0186,COL002,inbound_logistics,logistics delay,Transport disruption may delay inbound arrival,1,3,Low,3.0,Retail Operations,Monitoring,Completed,2026-08-19,2026-08-30
+RSK0187,COL014,launch_governance,stock allocation,Allocation dispute may reduce launch coverage,1,3,Low,3.0,PMO,Escalated,In Progress,2026-07-16,2026-08-12
+RSK0188,COL024,ecommerce,marketing delay,Campaign assets may miss launch handover,1,2,Low,2.0,Quality Manager,Monitoring,Not Started,2026-07-08,2026-07-31
+RSK0189,COL002,marketing,quality failure,Inspection failure could require rework before shipment,4,2,Medium,8.0,Quality Manager,Escalated,In Progress,2026-08-24,2026-09-16
+RSK0190,COL021,ecommerce,customs issue,Customs hold risk linked to incomplete documents,1,4,Low,4.0,Quality Manager,Monitoring,In Progress,2026-09-03,2026-09-19

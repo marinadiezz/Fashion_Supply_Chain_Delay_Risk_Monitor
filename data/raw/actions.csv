@@ -1,0 +1,241 @@
+action_id,linked_risk_id,collection_id,action_type,action_description,owner,due_date,completion_date,status,expected_impact,priority
+ACT0001,RSK0103,COL017,Confirm contingency plan,Update product content for marketing delay risk before launch gate,Sourcing Lead,2027-04-01,2027-03-27,Completed,Protect launch scope,High
+ACT0002,RSK0180,COL008,Confirm contingency plan,Reallocate stock for logistics delay risk before launch gate,Production Planner,2026-07-24,2026-07-16,Completed,Lower rework risk,Low
+ACT0003,RSK0093,COL005,Confirm contingency plan,Add warehouse slot for quality failure risk before launch gate,E-commerce Producer,2026-06-26,2026-06-21,Completed,Lower rework risk,High
+ACT0004,RSK0015,COL027,Validate compliance documents,Validate compliance documents for customs issue risk before launch gate,Production Planner,2027-02-24,,In Progress,Contain cost exposure,High
+ACT0005,RSK0107,COL029,Reallocate stock,Confirm contingency plan for logistics delay risk before launch gate,Retail Operations,2026-07-14,2026-07-16,Completed,Lower rework risk,Critical
+ACT0006,RSK0072,COL013,Add warehouse slot,Validate compliance documents for marketing delay risk before launch gate,Logistics Lead,2027-01-11,2027-01-04,Completed,Reduce launch delay,Medium
+ACT0007,RSK0189,COL002,Switch supplier,Escalate quality review for quality failure risk before launch gate,Quality Manager,2026-09-18,,In Progress,Protect launch scope,Medium
+ACT0008,RSK0021,COL014,Validate compliance documents,Update product content for compliance issue risk before launch gate,Quality Manager,2026-10-20,,Not Started,Lower rework risk,Low
+ACT0009,RSK0103,COL017,Approve partial launch,Update product content for marketing delay risk before launch gate,Sourcing Lead,2027-03-24,,In Progress,Contain cost exposure,High
+ACT0010,RSK0122,COL025,Validate compliance documents,Validate compliance documents for packaging delay risk before launch gate,Merchandising,2027-01-26,,In Progress,Contain cost exposure,Medium
+ACT0011,RSK0075,COL016,Approve partial launch,Update product content for production backlog risk before launch gate,Sourcing Lead,2026-09-11,,Overdue,Contain cost exposure,High
+ACT0012,RSK0088,COL012,Validate compliance documents,Validate compliance documents for ecommerce readiness risk before launch gate,PMO,2026-10-08,,In Progress,Reduce launch delay,Critical
+ACT0013,RSK0117,COL003,Update product content,Approve partial launch for compliance issue risk before launch gate,Quality Manager,2026-11-14,,Overdue,Protect launch scope,Medium
+ACT0014,RSK0100,COL005,Update product content,Reallocate stock for stock allocation risk before launch gate,Production Planner,2026-05-13,2026-05-07,Completed,Reduce launch delay,Low
+ACT0015,RSK0104,COL030,Expedite shipment,Expedite shipment for stock allocation risk before launch gate,Merchandising,2026-12-15,,Not Started,Protect launch scope,Critical
+ACT0016,RSK0152,COL029,Switch supplier,Reallocate stock for ecommerce readiness risk before launch gate,Marketing Manager,2026-06-11,2026-06-09,Completed,Contain cost exposure,Medium
+ACT0017,RSK0131,COL012,Update product content,Validate compliance documents for stock allocation risk before launch gate,Compliance Lead,2026-10-21,,Overdue,Protect launch scope,Critical
+ACT0018,RSK0150,COL019,Update product content,Expedite shipment for compliance issue risk before launch gate,Merchandising,2027-01-30,2027-01-24,Completed,Contain cost exposure,Medium
+ACT0019,RSK0053,COL026,Reallocate stock,Approve partial launch for supplier capacity risk before launch gate,Quality Manager,2026-06-22,,Not Started,Reduce launch delay,High
+ACT0020,RSK0002,COL026,Expedite shipment,Update product content for data/content issue risk before launch gate,Merchandising,2026-05-27,,Overdue,Reduce launch delay,High
+ACT0021,RSK0088,COL012,Approve partial launch,Update product content for ecommerce readiness risk before launch gate,PMO,2026-10-27,,Overdue,Protect launch scope,Low
+ACT0022,RSK0158,COL006,Expedite shipment,Update product content for compliance issue risk before launch gate,Retail Operations,2026-12-29,,In Progress,Contain cost exposure,Critical
+ACT0023,RSK0038,COL016,Escalate quality review,Update product content for marketing delay risk before launch gate,PMO,2026-08-31,,In Progress,Reduce launch delay,High
+ACT0024,RSK0130,COL005,Update product content,Reprioritize campaign assets for stock allocation risk before launch gate,Logistics Lead,2026-05-27,,In Progress,Improve readiness confidence,Critical
+ACT0025,RSK0188,COL024,Expedite shipment,Approve partial launch for marketing delay risk before launch gate,Quality Manager,2026-08-11,,In Progress,Protect launch scope,Medium
+ACT0026,RSK0021,COL014,Switch supplier,Switch supplier for compliance issue risk before launch gate,Quality Manager,2026-10-10,2026-10-04,Completed,Contain cost exposure,Critical
+ACT0027,RSK0161,COL010,Switch supplier,Reprioritize campaign assets for packaging delay risk before launch gate,Retail Operations,2026-05-20,,Overdue,Reduce launch delay,Low
+ACT0028,RSK0058,COL021,Expedite shipment,Confirm contingency plan for supplier capacity risk before launch gate,Compliance Lead,2026-11-02,,In Progress,Contain cost exposure,Medium
+ACT0029,RSK0022,COL002,Add warehouse slot,Update product content for customs issue risk before launch gate,Merchandising,2026-09-07,,In Progress,Lower rework risk,Critical
+ACT0030,RSK0089,COL016,Update product content,Escalate quality review for customs issue risk before launch gate,Retail Operations,2026-07-15,,In Progress,Contain cost exposure,Medium
+ACT0031,RSK0049,COL029,Escalate quality review,Reallocate stock for supplier capacity risk before launch gate,Merchandising,2026-08-01,,In Progress,Contain cost exposure,High
+ACT0032,RSK0059,COL008,Add warehouse slot,Switch supplier for quality failure risk before launch gate,Merchandising,2026-09-21,,In Progress,Contain cost exposure,Medium
+ACT0033,RSK0170,COL024,Escalate quality review,Escalate quality review for compliance issue risk before launch gate,PMO,2026-10-19,,Not Started,Reduce launch delay,High
+ACT0034,RSK0188,COL024,Escalate quality review,Add warehouse slot for marketing delay risk before launch gate,Quality Manager,2026-08-11,,Overdue,Reduce launch delay,High
+ACT0035,RSK0015,COL027,Reprioritize campaign assets,Escalate quality review for customs issue risk before launch gate,Production Planner,2027-02-28,,In Progress,Protect launch scope,High
+ACT0036,RSK0190,COL021,Reallocate stock,Approve partial launch for customs issue risk before launch gate,Quality Manager,2026-09-22,,In Progress,Lower rework risk,Low
+ACT0037,RSK0190,COL021,Validate compliance documents,Reallocate stock for customs issue risk before launch gate,Quality Manager,2026-10-04,,Overdue,Protect launch scope,High
+ACT0038,RSK0175,COL002,Confirm contingency plan,Reprioritize campaign assets for logistics delay risk before launch gate,Compliance Lead,2026-08-14,,In Progress,Improve readiness confidence,High
+ACT0039,RSK0190,COL021,Switch supplier,Switch supplier for customs issue risk before launch gate,Quality Manager,2026-09-28,,In Progress,Contain cost exposure,Medium
+ACT0040,RSK0051,COL020,Reallocate stock,Add warehouse slot for packaging delay risk before launch gate,Production Planner,2026-05-24,2026-05-22,Completed,Improve readiness confidence,High
+ACT0041,RSK0108,COL017,Approve partial launch,Approve partial launch for compliance issue risk before launch gate,Retail Operations,2027-01-12,,In Progress,Protect launch scope,Medium
+ACT0042,RSK0055,COL013,Expedite shipment,Reallocate stock for ecommerce readiness risk before launch gate,Retail Operations,2027-01-26,,In Progress,Protect launch scope,High
+ACT0043,RSK0064,COL010,Expedite shipment,Escalate quality review for quality failure risk before launch gate,PMO,2026-05-27,,In Progress,Reduce launch delay,High
+ACT0044,RSK0131,COL012,Update product content,Add warehouse slot for stock allocation risk before launch gate,Compliance Lead,2026-10-27,,In Progress,Reduce launch delay,Critical
+ACT0045,RSK0051,COL020,Expedite shipment,Update product content for packaging delay risk before launch gate,Production Planner,2026-05-30,2026-05-29,Completed,Improve readiness confidence,Critical
+ACT0046,RSK0135,COL019,Add warehouse slot,Reprioritize campaign assets for ecommerce readiness risk before launch gate,Retail Operations,2027-02-12,,In Progress,Contain cost exposure,High
+ACT0047,RSK0021,COL014,Reprioritize campaign assets,Expedite shipment for compliance issue risk before launch gate,Quality Manager,2026-10-02,,In Progress,Protect launch scope,Critical
+ACT0048,RSK0073,COL029,Confirm contingency plan,Confirm contingency plan for packaging delay risk before launch gate,Marketing Manager,2026-09-17,,In Progress,Contain cost exposure,Medium
+ACT0049,RSK0167,COL019,Escalate quality review,Confirm contingency plan for compliance issue risk before launch gate,PMO,2027-02-15,2027-02-12,Completed,Lower rework risk,High
+ACT0050,RSK0018,COL002,Switch supplier,Expedite shipment for logistics delay risk before launch gate,Quality Manager,2026-10-24,,In Progress,Protect launch scope,High
+ACT0051,RSK0132,COL001,Switch supplier,Approve partial launch for marketing delay risk before launch gate,Marketing Manager,2026-07-20,,In Progress,Improve readiness confidence,Medium
+ACT0052,RSK0089,COL016,Approve partial launch,Validate compliance documents for customs issue risk before launch gate,Retail Operations,2026-07-23,2026-07-20,Completed,Lower rework risk,Critical
+ACT0053,RSK0060,COL006,Escalate quality review,Escalate quality review for logistics delay risk before launch gate,PMO,2026-12-08,2026-12-01,Completed,Improve readiness confidence,High
+ACT0054,RSK0014,COL028,Reprioritize campaign assets,Expedite shipment for supplier capacity risk before launch gate,E-commerce Producer,2026-08-14,,In Progress,Improve readiness confidence,Critical
+ACT0055,RSK0009,COL011,Switch supplier,Validate compliance documents for marketing delay risk before launch gate,Marketing Manager,2026-08-06,2026-08-05,Completed,Protect launch scope,Critical
+ACT0056,RSK0090,COL001,Switch supplier,Switch supplier for production backlog risk before launch gate,Compliance Lead,2026-08-09,,In Progress,Contain cost exposure,Medium
+ACT0057,RSK0053,COL026,Validate compliance documents,Expedite shipment for supplier capacity risk before launch gate,Quality Manager,2026-06-16,2026-06-13,Completed,Contain cost exposure,Medium
+ACT0058,RSK0130,COL005,Validate compliance documents,Add warehouse slot for stock allocation risk before launch gate,Logistics Lead,2026-05-28,,In Progress,Lower rework risk,Low
+ACT0059,RSK0084,COL020,Update product content,Switch supplier for compliance issue risk before launch gate,E-commerce Producer,2026-07-04,,In Progress,Improve readiness confidence,High
+ACT0060,RSK0092,COL009,Escalate quality review,Escalate quality review for stock allocation risk before launch gate,Production Planner,2026-12-10,,Not Started,Reduce launch delay,Critical
+ACT0061,RSK0111,COL018,Confirm contingency plan,Add warehouse slot for supplier capacity risk before launch gate,Quality Manager,2026-11-17,,In Progress,Protect launch scope,Medium
+ACT0062,RSK0188,COL024,Reprioritize campaign assets,Approve partial launch for marketing delay risk before launch gate,Quality Manager,2026-07-31,,In Progress,Reduce launch delay,Medium
+ACT0063,RSK0172,COL006,Approve partial launch,Escalate quality review for supplier capacity risk before launch gate,Marketing Manager,2026-10-14,,In Progress,Reduce launch delay,High
+ACT0064,RSK0008,COL004,Update product content,Reprioritize campaign assets for logistics delay risk before launch gate,Marketing Manager,2026-08-04,,In Progress,Lower rework risk,Medium
+ACT0065,RSK0175,COL002,Validate compliance documents,Reprioritize campaign assets for logistics delay risk before launch gate,Compliance Lead,2026-08-03,,Overdue,Reduce launch delay,Critical
+ACT0066,RSK0035,COL026,Expedite shipment,Escalate quality review for packaging delay risk before launch gate,Merchandising,2026-06-08,2026-06-09,Completed,Protect launch scope,Low
+ACT0067,RSK0081,COL017,Reallocate stock,Reprioritize campaign assets for logistics delay risk before launch gate,Compliance Lead,2027-03-23,,Overdue,Contain cost exposure,High
+ACT0068,RSK0164,COL006,Reallocate stock,Switch supplier for quality failure risk before launch gate,Production Planner,2026-10-08,,Not Started,Protect launch scope,High
+ACT0069,RSK0050,COL014,Reprioritize campaign assets,Confirm contingency plan for marketing delay risk before launch gate,Sourcing Lead,2026-08-31,2026-09-04,Completed,Improve readiness confidence,High
+ACT0070,RSK0104,COL030,Reallocate stock,Validate compliance documents for stock allocation risk before launch gate,Merchandising,2026-12-23,2026-12-15,Completed,Contain cost exposure,Medium
+ACT0071,RSK0132,COL001,Add warehouse slot,Switch supplier for marketing delay risk before launch gate,Marketing Manager,2026-07-13,,In Progress,Reduce launch delay,Medium
+ACT0072,RSK0002,COL026,Switch supplier,Validate compliance documents for data/content issue risk before launch gate,Merchandising,2026-05-27,2026-05-28,Completed,Reduce launch delay,Medium
+ACT0073,RSK0134,COL023,Switch supplier,Confirm contingency plan for data/content issue risk before launch gate,Logistics Lead,2027-02-26,,Overdue,Protect launch scope,Medium
+ACT0074,RSK0054,COL004,Switch supplier,Validate compliance documents for quality failure risk before launch gate,Marketing Manager,2026-09-14,,In Progress,Improve readiness confidence,High
+ACT0075,RSK0106,COL005,Reallocate stock,Add warehouse slot for production backlog risk before launch gate,Marketing Manager,2026-04-27,2026-04-23,Completed,Protect launch scope,High
+ACT0076,RSK0004,COL012,Add warehouse slot,Validate compliance documents for data/content issue risk before launch gate,Marketing Manager,2026-09-18,,In Progress,Improve readiness confidence,Medium
+ACT0077,RSK0054,COL004,Switch supplier,Reallocate stock for quality failure risk before launch gate,Marketing Manager,2026-09-16,,Overdue,Reduce launch delay,High
+ACT0078,RSK0146,COL004,Update product content,Update product content for logistics delay risk before launch gate,E-commerce Producer,2026-07-06,2026-07-06,Completed,Lower rework risk,Critical
+ACT0079,RSK0044,COL027,Reprioritize campaign assets,Reprioritize campaign assets for logistics delay risk before launch gate,Marketing Manager,2027-02-04,,In Progress,Reduce launch delay,Medium
+ACT0080,RSK0162,COL006,Escalate quality review,Expedite shipment for stock allocation risk before launch gate,Retail Operations,2026-12-02,2026-12-05,Completed,Improve readiness confidence,High
+ACT0081,RSK0190,COL021,Approve partial launch,Expedite shipment for customs issue risk before launch gate,Quality Manager,2026-10-01,,In Progress,Improve readiness confidence,Low
+ACT0082,RSK0014,COL028,Escalate quality review,Reprioritize campaign assets for supplier capacity risk before launch gate,E-commerce Producer,2026-08-21,,In Progress,Protect launch scope,Medium
+ACT0083,RSK0095,COL026,Update product content,Confirm contingency plan for production backlog risk before launch gate,Compliance Lead,2026-06-07,,Overdue,Protect launch scope,Medium
+ACT0084,RSK0048,COL026,Validate compliance documents,Expedite shipment for packaging delay risk before launch gate,Production Planner,2026-06-24,2026-06-19,Completed,Protect launch scope,High
+ACT0085,RSK0015,COL027,Switch supplier,Validate compliance documents for customs issue risk before launch gate,Production Planner,2027-02-23,2027-02-22,Completed,Reduce launch delay,Medium
+ACT0086,RSK0190,COL021,Switch supplier,Confirm contingency plan for customs issue risk before launch gate,Quality Manager,2026-09-11,,Not Started,Reduce launch delay,High
+ACT0087,RSK0040,COL016,Escalate quality review,Update product content for quality failure risk before launch gate,PMO,2026-09-11,,Not Started,Contain cost exposure,Medium
+ACT0088,RSK0082,COL011,Switch supplier,Reallocate stock for production backlog risk before launch gate,PMO,2026-08-23,,In Progress,Improve readiness confidence,High
+ACT0089,RSK0111,COL018,Reprioritize campaign assets,Reprioritize campaign assets for supplier capacity risk before launch gate,Quality Manager,2026-10-26,,Overdue,Reduce launch delay,Critical
+ACT0090,RSK0053,COL026,Add warehouse slot,Validate compliance documents for supplier capacity risk before launch gate,Quality Manager,2026-06-03,2026-05-28,Completed,Improve readiness confidence,Critical
+ACT0091,RSK0024,COL005,Add warehouse slot,Reallocate stock for supplier capacity risk before launch gate,Merchandising,2026-06-29,,In Progress,Lower rework risk,Low
+ACT0092,RSK0154,COL022,Validate compliance documents,Switch supplier for customs issue risk before launch gate,E-commerce Producer,2027-01-04,,Not Started,Protect launch scope,Medium
+ACT0093,RSK0188,COL024,Approve partial launch,Validate compliance documents for marketing delay risk before launch gate,Quality Manager,2026-08-04,,In Progress,Improve readiness confidence,Medium
+ACT0094,RSK0124,COL025,Switch supplier,Expedite shipment for customs issue risk before launch gate,Logistics Lead,2027-02-18,,Overdue,Contain cost exposure,Medium
+ACT0095,RSK0041,COL020,Escalate quality review,Validate compliance documents for packaging delay risk before launch gate,Quality Manager,2026-07-31,,Not Started,Reduce launch delay,Medium
+ACT0096,RSK0157,COL019,Update product content,Escalate quality review for ecommerce readiness risk before launch gate,Logistics Lead,2027-01-30,2027-02-03,Completed,Reduce launch delay,Medium
+ACT0097,RSK0015,COL027,Reprioritize campaign assets,Add warehouse slot for customs issue risk before launch gate,Production Planner,2027-03-07,,In Progress,Lower rework risk,Critical
+ACT0098,RSK0045,COL025,Approve partial launch,Reprioritize campaign assets for ecommerce readiness risk before launch gate,Sourcing Lead,2026-12-22,,In Progress,Lower rework risk,Critical
+ACT0099,RSK0065,COL019,Add warehouse slot,Expedite shipment for customs issue risk before launch gate,Compliance Lead,2027-01-23,2027-01-27,Completed,Reduce launch delay,Critical
+ACT0100,RSK0089,COL016,Update product content,Reprioritize campaign assets for customs issue risk before launch gate,Retail Operations,2026-07-11,,In Progress,Contain cost exposure,Low
+ACT0101,RSK0071,COL028,Escalate quality review,Expedite shipment for stock allocation risk before launch gate,Quality Manager,2026-09-13,,In Progress,Protect launch scope,Medium
+ACT0102,RSK0009,COL011,Approve partial launch,Expedite shipment for marketing delay risk before launch gate,Marketing Manager,2026-07-30,,Not Started,Reduce launch delay,Medium
+ACT0103,RSK0088,COL012,Switch supplier,Add warehouse slot for ecommerce readiness risk before launch gate,PMO,2026-10-22,2026-10-26,Completed,Contain cost exposure,High
+ACT0104,RSK0129,COL019,Expedite shipment,Approve partial launch for data/content issue risk before launch gate,Sourcing Lead,2026-11-26,,Not Started,Protect launch scope,Medium
+ACT0105,RSK0136,COL009,Reallocate stock,Escalate quality review for production backlog risk before launch gate,E-commerce Producer,2026-12-03,2026-12-04,Completed,Contain cost exposure,Medium
+ACT0106,RSK0063,COL029,Expedite shipment,Reallocate stock for production backlog risk before launch gate,Sourcing Lead,2026-07-16,,Not Started,Improve readiness confidence,Critical
+ACT0107,RSK0139,COL029,Confirm contingency plan,Expedite shipment for packaging delay risk before launch gate,E-commerce Producer,2026-08-22,,In Progress,Contain cost exposure,High
+ACT0108,RSK0081,COL017,Reallocate stock,Reprioritize campaign assets for logistics delay risk before launch gate,Compliance Lead,2027-03-16,,In Progress,Reduce launch delay,Low
+ACT0109,RSK0136,COL009,Confirm contingency plan,Add warehouse slot for production backlog risk before launch gate,E-commerce Producer,2026-12-10,,In Progress,Protect launch scope,Medium
+ACT0110,RSK0163,COL007,Escalate quality review,Approve partial launch for packaging delay risk before launch gate,Compliance Lead,2026-10-27,,Overdue,Reduce launch delay,Low
+ACT0111,RSK0163,COL007,Validate compliance documents,Validate compliance documents for packaging delay risk before launch gate,Compliance Lead,2026-10-17,,In Progress,Reduce launch delay,Low
+ACT0112,RSK0033,COL011,Approve partial launch,Approve partial launch for production backlog risk before launch gate,Compliance Lead,2026-08-04,,In Progress,Reduce launch delay,Medium
+ACT0113,RSK0123,COL030,Confirm contingency plan,Reallocate stock for marketing delay risk before launch gate,Production Planner,2026-10-18,2026-10-19,Completed,Lower rework risk,Medium
+ACT0114,RSK0005,COL012,Switch supplier,Validate compliance documents for logistics delay risk before launch gate,E-commerce Producer,2026-09-23,,Overdue,Contain cost exposure,Medium
+ACT0115,RSK0041,COL020,Validate compliance documents,Update product content for packaging delay risk before launch gate,Quality Manager,2026-07-27,,In Progress,Protect launch scope,Low
+ACT0116,RSK0028,COL029,Validate compliance documents,Update product content for production backlog risk before launch gate,PMO,2026-07-13,,Overdue,Contain cost exposure,Medium
+ACT0117,RSK0135,COL019,Validate compliance documents,Validate compliance documents for ecommerce readiness risk before launch gate,Retail Operations,2027-02-07,2027-02-02,Completed,Reduce launch delay,High
+ACT0118,RSK0072,COL013,Add warehouse slot,Approve partial launch for marketing delay risk before launch gate,Logistics Lead,2027-01-18,2027-01-18,Completed,Reduce launch delay,Medium
+ACT0119,RSK0012,COL003,Switch supplier,Switch supplier for packaging delay risk before launch gate,PMO,2026-11-17,,Not Started,Lower rework risk,Medium
+ACT0120,RSK0162,COL006,Switch supplier,Validate compliance documents for stock allocation risk before launch gate,Retail Operations,2026-11-27,,In Progress,Lower rework risk,Critical
+ACT0121,RSK0033,COL011,Escalate quality review,Update product content for production backlog risk before launch gate,Compliance Lead,2026-07-27,,Not Started,Contain cost exposure,Critical
+ACT0122,RSK0048,COL026,Validate compliance documents,Reprioritize campaign assets for packaging delay risk before launch gate,Production Planner,2026-07-18,2026-07-19,Completed,Reduce launch delay,Low
+ACT0123,RSK0151,COL007,Add warehouse slot,Add warehouse slot for quality failure risk before launch gate,Marketing Manager,2026-10-16,,Not Started,Protect launch scope,Medium
+ACT0124,RSK0062,COL011,Confirm contingency plan,Validate compliance documents for ecommerce readiness risk before launch gate,PMO,2026-08-15,,Overdue,Contain cost exposure,High
+ACT0125,RSK0037,COL027,Switch supplier,Validate compliance documents for compliance issue risk before launch gate,Retail Operations,2027-01-20,,Not Started,Improve readiness confidence,High
+ACT0126,RSK0099,COL022,Escalate quality review,Escalate quality review for compliance issue risk before launch gate,Marketing Manager,2026-10-25,,In Progress,Lower rework risk,Medium
+ACT0127,RSK0172,COL006,Escalate quality review,Switch supplier for supplier capacity risk before launch gate,Marketing Manager,2026-10-05,,In Progress,Improve readiness confidence,Critical
+ACT0128,RSK0104,COL030,Reprioritize campaign assets,Reallocate stock for stock allocation risk before launch gate,Merchandising,2026-12-08,2026-12-07,Completed,Contain cost exposure,High
+ACT0129,RSK0035,COL026,Switch supplier,Update product content for packaging delay risk before launch gate,Merchandising,2026-06-04,,In Progress,Improve readiness confidence,Critical
+ACT0130,RSK0101,COL008,Escalate quality review,Expedite shipment for marketing delay risk before launch gate,Merchandising,2026-06-26,,Overdue,Improve readiness confidence,Medium
+ACT0131,RSK0175,COL002,Update product content,Escalate quality review for logistics delay risk before launch gate,Compliance Lead,2026-07-29,2026-07-24,Completed,Reduce launch delay,High
+ACT0132,RSK0131,COL012,Escalate quality review,Escalate quality review for stock allocation risk before launch gate,Compliance Lead,2026-10-11,,In Progress,Protect launch scope,High
+ACT0133,RSK0001,COL029,Add warehouse slot,Escalate quality review for ecommerce readiness risk before launch gate,Merchandising,2026-09-04,,In Progress,Lower rework risk,Critical
+ACT0134,RSK0005,COL012,Update product content,Expedite shipment for logistics delay risk before launch gate,E-commerce Producer,2026-09-26,,Overdue,Lower rework risk,High
+ACT0135,RSK0142,COL025,Escalate quality review,Approve partial launch for packaging delay risk before launch gate,Sourcing Lead,2027-02-26,2027-02-21,Completed,Contain cost exposure,Medium
+ACT0136,RSK0103,COL017,Switch supplier,Confirm contingency plan for marketing delay risk before launch gate,Sourcing Lead,2027-03-14,,Not Started,Lower rework risk,High
+ACT0137,RSK0027,COL004,Expedite shipment,Reallocate stock for ecommerce readiness risk before launch gate,Production Planner,2026-08-03,,Not Started,Improve readiness confidence,Medium
+ACT0138,RSK0137,COL016,Update product content,Reprioritize campaign assets for quality failure risk before launch gate,Production Planner,2026-06-25,,In Progress,Lower rework risk,High
+ACT0139,RSK0015,COL027,Switch supplier,Escalate quality review for customs issue risk before launch gate,Production Planner,2027-02-10,2027-02-09,Completed,Lower rework risk,High
+ACT0140,RSK0090,COL001,Validate compliance documents,Reprioritize campaign assets for production backlog risk before launch gate,Compliance Lead,2026-08-03,,Overdue,Contain cost exposure,High
+ACT0141,RSK0042,COL018,Validate compliance documents,Update product content for logistics delay risk before launch gate,E-commerce Producer,2026-11-12,2026-11-11,Completed,Protect launch scope,High
+ACT0142,RSK0124,COL025,Update product content,Expedite shipment for customs issue risk before launch gate,Logistics Lead,2027-02-04,2027-02-06,Completed,Contain cost exposure,High
+ACT0143,RSK0179,COL003,Escalate quality review,Reallocate stock for packaging delay risk before launch gate,Sourcing Lead,2026-12-26,,Not Started,Reduce launch delay,Medium
+ACT0144,RSK0063,COL029,Add warehouse slot,Approve partial launch for production backlog risk before launch gate,Sourcing Lead,2026-07-13,,Not Started,Reduce launch delay,Medium
+ACT0145,RSK0096,COL020,Validate compliance documents,Escalate quality review for quality failure risk before launch gate,Quality Manager,2026-08-18,2026-08-20,Completed,Contain cost exposure,Low
+ACT0146,RSK0052,COL019,Approve partial launch,Escalate quality review for logistics delay risk before launch gate,Production Planner,2027-02-05,,Not Started,Improve readiness confidence,Medium
+ACT0147,RSK0096,COL020,Reprioritize campaign assets,Update product content for quality failure risk before launch gate,Quality Manager,2026-08-05,,Overdue,Protect launch scope,Medium
+ACT0148,RSK0132,COL001,Add warehouse slot,Confirm contingency plan for marketing delay risk before launch gate,Marketing Manager,2026-07-27,,In Progress,Improve readiness confidence,High
+ACT0149,RSK0151,COL007,Add warehouse slot,Update product content for quality failure risk before launch gate,Marketing Manager,2026-10-14,,Overdue,Contain cost exposure,High
+ACT0150,RSK0143,COL009,Approve partial launch,Switch supplier for stock allocation risk before launch gate,PMO,2027-01-01,,Not Started,Improve readiness confidence,Critical
+ACT0151,RSK0171,COL024,Approve partial launch,Reprioritize campaign assets for packaging delay risk before launch gate,Retail Operations,2026-09-20,2026-09-20,Completed,Protect launch scope,High
+ACT0152,RSK0029,COL002,Confirm contingency plan,Update product content for compliance issue risk before launch gate,Quality Manager,2026-09-07,,In Progress,Protect launch scope,Critical
+ACT0153,RSK0036,COL013,Reallocate stock,Expedite shipment for stock allocation risk before launch gate,Compliance Lead,2027-01-07,,Overdue,Protect launch scope,Medium
+ACT0154,RSK0013,COL024,Add warehouse slot,Confirm contingency plan for compliance issue risk before launch gate,Logistics Lead,2026-09-08,,In Progress,Contain cost exposure,Low
+ACT0155,RSK0160,COL002,Reprioritize campaign assets,Add warehouse slot for ecommerce readiness risk before launch gate,Retail Operations,2026-10-19,,Overdue,Contain cost exposure,High
+ACT0156,RSK0071,COL028,Confirm contingency plan,Approve partial launch for stock allocation risk before launch gate,Quality Manager,2026-09-07,,Not Started,Protect launch scope,Low
+ACT0157,RSK0187,COL014,Confirm contingency plan,Reprioritize campaign assets for stock allocation risk before launch gate,PMO,2026-08-26,,Overdue,Reduce launch delay,Low
+ACT0158,RSK0086,COL030,Escalate quality review,Reprioritize campaign assets for stock allocation risk before launch gate,Compliance Lead,2026-11-15,,In Progress,Contain cost exposure,Medium
+ACT0159,RSK0028,COL029,Validate compliance documents,Confirm contingency plan for production backlog risk before launch gate,PMO,2026-07-22,,In Progress,Protect launch scope,Medium
+ACT0160,RSK0066,COL004,Escalate quality review,Add warehouse slot for compliance issue risk before launch gate,Compliance Lead,2026-07-28,2026-08-01,Completed,Reduce launch delay,Critical
+ACT0161,RSK0170,COL024,Reallocate stock,Approve partial launch for compliance issue risk before launch gate,PMO,2026-10-28,2026-10-20,Completed,Improve readiness confidence,Critical
+ACT0162,RSK0045,COL025,Update product content,Add warehouse slot for ecommerce readiness risk before launch gate,Sourcing Lead,2027-01-03,2026-12-29,Completed,Lower rework risk,Critical
+ACT0163,RSK0062,COL011,Expedite shipment,Update product content for ecommerce readiness risk before launch gate,PMO,2026-08-20,,Overdue,Lower rework risk,Critical
+ACT0164,RSK0185,COL007,Reprioritize campaign assets,Validate compliance documents for supplier capacity risk before launch gate,Retail Operations,2026-12-05,,Overdue,Reduce launch delay,Medium
+ACT0165,RSK0134,COL023,Add warehouse slot,Validate compliance documents for data/content issue risk before launch gate,Logistics Lead,2027-02-05,,Overdue,Reduce launch delay,High
+ACT0166,RSK0028,COL029,Approve partial launch,Add warehouse slot for production backlog risk before launch gate,PMO,2026-07-18,,In Progress,Contain cost exposure,Medium
+ACT0167,RSK0028,COL029,Validate compliance documents,Confirm contingency plan for production backlog risk before launch gate,PMO,2026-07-20,2026-07-14,Completed,Contain cost exposure,Medium
+ACT0168,RSK0108,COL017,Validate compliance documents,Reprioritize campaign assets for compliance issue risk before launch gate,Retail Operations,2027-01-20,,Not Started,Reduce launch delay,Medium
+ACT0169,RSK0044,COL027,Expedite shipment,Update product content for logistics delay risk before launch gate,Marketing Manager,2027-02-03,,Overdue,Contain cost exposure,Low
+ACT0170,RSK0084,COL020,Reallocate stock,Update product content for compliance issue risk before launch gate,E-commerce Producer,2026-07-09,,In Progress,Improve readiness confidence,Critical
+ACT0171,RSK0030,COL004,Update product content,Validate compliance documents for stock allocation risk before launch gate,Merchandising,2026-09-03,,Not Started,Reduce launch delay,Medium
+ACT0172,RSK0190,COL021,Add warehouse slot,Escalate quality review for customs issue risk before launch gate,Quality Manager,2026-09-29,2026-10-03,Completed,Reduce launch delay,Critical
+ACT0173,RSK0075,COL016,Reprioritize campaign assets,Validate compliance documents for production backlog risk before launch gate,Sourcing Lead,2026-09-02,,In Progress,Improve readiness confidence,Medium
+ACT0174,RSK0128,COL027,Escalate quality review,Escalate quality review for compliance issue risk before launch gate,Retail Operations,2027-04-17,,Not Started,Contain cost exposure,High
+ACT0175,RSK0092,COL009,Approve partial launch,Add warehouse slot for stock allocation risk before launch gate,Production Planner,2026-11-27,2026-11-29,Completed,Lower rework risk,Low
+ACT0176,RSK0190,COL021,Approve partial launch,Validate compliance documents for customs issue risk before launch gate,Quality Manager,2026-09-21,2026-09-15,Completed,Contain cost exposure,Medium
+ACT0177,RSK0129,COL019,Validate compliance documents,Add warehouse slot for data/content issue risk before launch gate,Sourcing Lead,2026-12-07,,In Progress,Reduce launch delay,High
+ACT0178,RSK0121,COL030,Add warehouse slot,Switch supplier for packaging delay risk before launch gate,Marketing Manager,2026-10-31,,Overdue,Improve readiness confidence,High
+ACT0179,RSK0027,COL004,Add warehouse slot,Reprioritize campaign assets for ecommerce readiness risk before launch gate,Production Planner,2026-07-20,,In Progress,Improve readiness confidence,Critical
+ACT0180,RSK0190,COL021,Validate compliance documents,Confirm contingency plan for customs issue risk before launch gate,Quality Manager,2026-09-22,,Not Started,Improve readiness confidence,Medium
+ACT0181,RSK0121,COL030,Approve partial launch,Approve partial launch for packaging delay risk before launch gate,Marketing Manager,2026-10-16,,In Progress,Lower rework risk,Critical
+ACT0182,RSK0116,COL030,Escalate quality review,Confirm contingency plan for quality failure risk before launch gate,Quality Manager,2026-09-26,,Overdue,Improve readiness confidence,Medium
+ACT0183,RSK0003,COL016,Expedite shipment,Reprioritize campaign assets for ecommerce readiness risk before launch gate,PMO,2026-09-21,2026-09-23,Completed,Contain cost exposure,Medium
+ACT0184,RSK0103,COL017,Reprioritize campaign assets,Add warehouse slot for marketing delay risk before launch gate,Sourcing Lead,2027-03-22,,In Progress,Protect launch scope,Low
+ACT0185,RSK0155,COL011,Add warehouse slot,Confirm contingency plan for quality failure risk before launch gate,Quality Manager,2026-08-01,,In Progress,Protect launch scope,Medium
+ACT0186,RSK0137,COL016,Update product content,Reprioritize campaign assets for quality failure risk before launch gate,Production Planner,2026-06-13,,In Progress,Contain cost exposure,Low
+ACT0187,RSK0062,COL011,Update product content,Expedite shipment for ecommerce readiness risk before launch gate,PMO,2026-08-11,,Not Started,Lower rework risk,High
+ACT0188,RSK0165,COL012,Reprioritize campaign assets,Validate compliance documents for data/content issue risk before launch gate,PMO,2026-10-03,,In Progress,Lower rework risk,Medium
+ACT0189,RSK0051,COL020,Add warehouse slot,Escalate quality review for packaging delay risk before launch gate,Production Planner,2026-06-02,,In Progress,Improve readiness confidence,Medium
+ACT0190,RSK0172,COL006,Validate compliance documents,Approve partial launch for supplier capacity risk before launch gate,Marketing Manager,2026-09-28,,In Progress,Protect launch scope,Medium
+ACT0191,RSK0152,COL029,Expedite shipment,Approve partial launch for ecommerce readiness risk before launch gate,Marketing Manager,2026-06-24,,In Progress,Contain cost exposure,High
+ACT0192,RSK0059,COL008,Add warehouse slot,Update product content for quality failure risk before launch gate,Merchandising,2026-09-29,,In Progress,Contain cost exposure,Low
+ACT0193,RSK0118,COL007,Confirm contingency plan,Escalate quality review for quality failure risk before launch gate,Merchandising,2026-12-18,2026-12-15,Completed,Contain cost exposure,Medium
+ACT0194,RSK0160,COL002,Switch supplier,Validate compliance documents for ecommerce readiness risk before launch gate,Retail Operations,2026-10-05,2026-10-01,Completed,Improve readiness confidence,Medium
+ACT0195,RSK0096,COL020,Escalate quality review,Expedite shipment for quality failure risk before launch gate,Quality Manager,2026-08-07,,In Progress,Contain cost exposure,Medium
+ACT0196,RSK0180,COL008,Validate compliance documents,Approve partial launch for logistics delay risk before launch gate,Production Planner,2026-07-20,,In Progress,Reduce launch delay,Medium
+ACT0197,RSK0113,COL011,Update product content,Update product content for customs issue risk before launch gate,Production Planner,2026-09-27,,In Progress,Contain cost exposure,Critical
+ACT0198,RSK0062,COL011,Expedite shipment,Update product content for ecommerce readiness risk before launch gate,PMO,2026-08-10,2026-08-12,Completed,Contain cost exposure,Medium
+ACT0199,RSK0186,COL002,Reallocate stock,Validate compliance documents for logistics delay risk before launch gate,Retail Operations,2026-09-05,2026-09-02,Completed,Protect launch scope,Critical
+ACT0200,RSK0052,COL019,Reallocate stock,Expedite shipment for logistics delay risk before launch gate,Production Planner,2027-02-16,,In Progress,Contain cost exposure,Medium
+ACT0201,RSK0012,COL003,Expedite shipment,Add warehouse slot for packaging delay risk before launch gate,PMO,2026-11-08,,In Progress,Lower rework risk,Medium
+ACT0202,RSK0039,COL010,Confirm contingency plan,Reprioritize campaign assets for data/content issue risk before launch gate,Compliance Lead,2026-04-26,,In Progress,Protect launch scope,High
+ACT0203,RSK0130,COL005,Switch supplier,Escalate quality review for stock allocation risk before launch gate,Logistics Lead,2026-05-27,2026-05-19,Completed,Protect launch scope,High
+ACT0204,RSK0131,COL012,Approve partial launch,Expedite shipment for stock allocation risk before launch gate,Compliance Lead,2026-10-27,,Not Started,Improve readiness confidence,Critical
+ACT0205,RSK0113,COL011,Add warehouse slot,Add warehouse slot for customs issue risk before launch gate,Production Planner,2026-09-15,2026-09-18,Completed,Protect launch scope,Critical
+ACT0206,RSK0101,COL008,Expedite shipment,Validate compliance documents for marketing delay risk before launch gate,Merchandising,2026-07-13,2026-07-07,Completed,Protect launch scope,High
+ACT0207,RSK0113,COL011,Approve partial launch,Escalate quality review for customs issue risk before launch gate,Production Planner,2026-09-20,,In Progress,Contain cost exposure,High
+ACT0208,RSK0184,COL001,Update product content,Confirm contingency plan for data/content issue risk before launch gate,Quality Manager,2026-05-20,2026-05-20,Completed,Protect launch scope,High
+ACT0209,RSK0081,COL017,Update product content,Reallocate stock for logistics delay risk before launch gate,Compliance Lead,2027-03-15,,Not Started,Lower rework risk,High
+ACT0210,RSK0187,COL014,Validate compliance documents,Reallocate stock for stock allocation risk before launch gate,PMO,2026-08-06,,In Progress,Contain cost exposure,Medium
+ACT0211,RSK0113,COL011,Approve partial launch,Reprioritize campaign assets for customs issue risk before launch gate,Production Planner,2026-09-15,,In Progress,Contain cost exposure,Medium
+ACT0212,RSK0002,COL026,Add warehouse slot,Validate compliance documents for data/content issue risk before launch gate,Merchandising,2026-06-01,,In Progress,Improve readiness confidence,High
+ACT0213,RSK0130,COL005,Escalate quality review,Confirm contingency plan for stock allocation risk before launch gate,Logistics Lead,2026-06-06,,Overdue,Reduce launch delay,Medium
+ACT0214,RSK0054,COL004,Reprioritize campaign assets,Approve partial launch for quality failure risk before launch gate,Marketing Manager,2026-09-17,2026-09-16,Completed,Contain cost exposure,Medium
+ACT0215,RSK0087,COL015,Escalate quality review,Reprioritize campaign assets for supplier capacity risk before launch gate,Compliance Lead,2026-10-19,,In Progress,Protect launch scope,Medium
+ACT0216,RSK0129,COL019,Update product content,Confirm contingency plan for data/content issue risk before launch gate,Sourcing Lead,2026-12-12,2026-12-12,Completed,Protect launch scope,Medium
+ACT0217,RSK0147,COL030,Confirm contingency plan,Confirm contingency plan for supplier capacity risk before launch gate,Merchandising,2026-11-16,,In Progress,Improve readiness confidence,Medium
+ACT0218,RSK0126,COL008,Reallocate stock,Switch supplier for production backlog risk before launch gate,Marketing Manager,2026-08-22,,In Progress,Contain cost exposure,High
+ACT0219,RSK0130,COL005,Escalate quality review,Reprioritize campaign assets for stock allocation risk before launch gate,Logistics Lead,2026-05-29,2026-05-22,Completed,Lower rework risk,Medium
+ACT0220,RSK0053,COL026,Validate compliance documents,Escalate quality review for supplier capacity risk before launch gate,Quality Manager,2026-06-09,2026-06-05,Completed,Protect launch scope,Critical
+ACT0221,RSK0172,COL006,Approve partial launch,Add warehouse slot for supplier capacity risk before launch gate,Marketing Manager,2026-09-29,,Not Started,Lower rework risk,Low
+ACT0222,RSK0160,COL002,Approve partial launch,Confirm contingency plan for ecommerce readiness risk before launch gate,Retail Operations,2026-10-02,,In Progress,Protect launch scope,Medium
+ACT0223,RSK0160,COL002,Validate compliance documents,Reprioritize campaign assets for ecommerce readiness risk before launch gate,Retail Operations,2026-10-03,,In Progress,Contain cost exposure,High
+ACT0224,RSK0068,COL015,Add warehouse slot,Validate compliance documents for data/content issue risk before launch gate,Retail Operations,2026-12-04,,In Progress,Improve readiness confidence,Medium
+ACT0225,RSK0183,COL016,Expedite shipment,Validate compliance documents for packaging delay risk before launch gate,E-commerce Producer,2026-08-22,2026-08-17,Completed,Improve readiness confidence,Low
+ACT0226,RSK0184,COL001,Reallocate stock,Add warehouse slot for data/content issue risk before launch gate,Quality Manager,2026-05-10,,Not Started,Reduce launch delay,Medium
+ACT0227,RSK0123,COL030,Confirm contingency plan,Switch supplier for marketing delay risk before launch gate,Production Planner,2026-11-01,,Not Started,Contain cost exposure,High
+ACT0228,RSK0145,COL023,Confirm contingency plan,Expedite shipment for marketing delay risk before launch gate,E-commerce Producer,2027-01-02,,Not Started,Contain cost exposure,Low
+ACT0229,RSK0038,COL016,Confirm contingency plan,Switch supplier for marketing delay risk before launch gate,PMO,2026-08-17,,In Progress,Reduce launch delay,High
+ACT0230,RSK0024,COL005,Update product content,Confirm contingency plan for supplier capacity risk before launch gate,Merchandising,2026-06-21,,Overdue,Reduce launch delay,Low
+ACT0231,RSK0069,COL020,Validate compliance documents,Validate compliance documents for stock allocation risk before launch gate,Merchandising,2026-05-27,,In Progress,Reduce launch delay,Medium
+ACT0232,RSK0116,COL030,Escalate quality review,Approve partial launch for quality failure risk before launch gate,Quality Manager,2026-09-02,,In Progress,Protect launch scope,High
+ACT0233,RSK0098,COL001,Add warehouse slot,Confirm contingency plan for quality failure risk before launch gate,Compliance Lead,2026-04-21,,In Progress,Lower rework risk,Medium
+ACT0234,RSK0139,COL029,Validate compliance documents,Reprioritize campaign assets for packaging delay risk before launch gate,E-commerce Producer,2026-08-01,,In Progress,Lower rework risk,Low
+ACT0235,RSK0144,COL026,Reallocate stock,Escalate quality review for data/content issue risk before launch gate,Retail Operations,2026-06-10,,Overdue,Protect launch scope,High
+ACT0236,RSK0097,COL005,Escalate quality review,Reprioritize campaign assets for packaging delay risk before launch gate,Retail Operations,2026-05-12,,Overdue,Lower rework risk,Medium
+ACT0237,RSK0124,COL025,Reallocate stock,Expedite shipment for customs issue risk before launch gate,Logistics Lead,2027-02-27,2027-03-03,Completed,Lower rework risk,Medium
+ACT0238,RSK0187,COL014,Confirm contingency plan,Reprioritize campaign assets for stock allocation risk before launch gate,PMO,2026-08-26,,Not Started,Lower rework risk,Critical
+ACT0239,RSK0070,COL021,Confirm contingency plan,Validate compliance documents for customs issue risk before launch gate,Production Planner,2026-09-30,,Overdue,Contain cost exposure,Low
+ACT0240,RSK0093,COL005,Confirm contingency plan,Update product content for quality failure risk before launch gate,E-commerce Producer,2026-06-25,,In Progress,Improve readiness confidence,Medium
